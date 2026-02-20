@@ -1,6 +1,6 @@
 # Log-Loss Example
 
-This project demonstrates the implementation of the Statistical Classification Log-Loss (Cross Entropy) using a healthcare-related dataset. The example involves predicting the likelihood of a patient having a certain condition based on diagnostic test results.
+This project demonstrates the implementation of the Statistical Classification Log-Loss (Cross Entropy) using a Hours studied vs. Final scores dataset. The example involves predicting the likelihood of a patient having a certain condition based on diagnostic test results.
 
 ## Contents
 
