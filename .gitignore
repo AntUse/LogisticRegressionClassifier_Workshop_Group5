@@ -1,0 +1,5 @@
+# Virtual environment
+knn_env/
+
+venv/
+LogLoss_Example.ipynb
