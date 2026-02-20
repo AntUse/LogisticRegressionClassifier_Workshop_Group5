@@ -1,32 +1,6 @@
-# Log-Loss Example
+# Log-Loss Example Notebook
 
-This project demonstrates the implementation of the Statistical Classification Log-Loss (Cross Entropy) using a Hours studied vs. Final scores dataset. The example involves predicting the likelihood of a patient having a certain condition based on diagnostic test results.
-
-## Contents
-
-- **Notebook**: The Jupyter Notebook `LogLoss_Example.ipynb` contains:
-  - An explanation of the Log-Loss formula.
-  - Implementation of the Log-Loss function.
-  - A healthcare dataset for demonstration.
-  - Visualization of results.
-  - Talking points about the code and its design.
-
-## Key Features
-
-1. **Log-Loss Function**:
-   - Measures the performance of a classification model.
-   - Ensures numerical stability with `np.clip`.
-
-2. **Healthcare Dataset**:
-   - Diagnostic test results vs. condition presence.
-   - Simulated probabilities for demonstration.
-
-3. **Visualization**:
-   - Graphical comparison of predicted probabilities and actual outcomes.
-
-
-## How to Use
-
+This README provides instructions for setting up the environment, installing dependencies, and running the `LogLoss_Example.ipynb` notebook.
 
 ## Setting Up the Virtual Environment
 
@@ -58,9 +32,40 @@ Ensure you have a `requirements.txt` file in the project directory with the foll
 ```
 numpy
 matplotlib
+scikit-learn
 ```
-1. Open the `Healthcare_LogLoss_Example.ipynb` notebook in Jupyter.
-2. Run the cells step-by-step to:
+
+## Running the Notebook
+
+1. Activate the virtual environment:
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+
+2. Install the required libraries (if not already installed):
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+4. Open the `LogLoss_Example.ipynb` notebook in Jupyter.
+
+5. Run the cells step-by-step to:
    - Understand the Log-Loss formula.
    - See the implementation and results.
-3. Modify the dataset or predictions to test with your own data.
+   - Visualize the sigmoid curve.
+
+## Notes
+
+- The notebook demonstrates the implementation of the Statistical Classification Log-Loss (Cross Entropy) using a predicting pass-fail outcomes based on the number of hours studied dataset.
+- The dataset has been refined to better demonstrate the sigmoid curve and its relationship with the Log-Loss function.
+- Feel free to modify the dataset or predictions to test with your own data.
