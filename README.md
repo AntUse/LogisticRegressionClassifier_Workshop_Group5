@@ -4,7 +4,7 @@ This project demonstrates the implementation of the Statistical Classification L
 
 ## Contents
 
-- **Notebook**: The Jupyter Notebook `Healthcare_LogLoss_Example.ipynb` contains:
+- **Notebook**: The Jupyter Notebook `LogLoss_Example.ipynb` contains:
   - An explanation of the Log-Loss formula.
   - Implementation of the Log-Loss function.
   - A healthcare dataset for demonstration.
@@ -24,8 +24,6 @@ This project demonstrates the implementation of the Statistical Classification L
 3. **Visualization**:
    - Graphical comparison of predicted probabilities and actual outcomes.
 
-4. **Code Modularity**:
-   - Functions and sections are designed for clarity and reusability.
 
 ## How to Use
 
